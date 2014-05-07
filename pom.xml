@@ -17,6 +17,8 @@
 
     <modules>
         <module>webapp</module>
+        <module>client</module>
+        <module>common</module>
     </modules>
 
 </project>

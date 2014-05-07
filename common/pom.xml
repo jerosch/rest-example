@@ -11,20 +11,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>rest-example-webapp</artifactId>
-    <packaging>war</packaging>
+    <artifactId>rest-example-common</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.opitzconsulting.sandbox.ros</groupId>
-            <artifactId>rest-example-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>jaxrs-api</artifactId>
             <version>3.0.8.Final</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 

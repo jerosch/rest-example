@@ -15,6 +15,9 @@ public class ValueObject {
 
     private List<String> list;
 
+    public ValueObject() {
+    }
+
     public ValueObject(long id) {
         this.id = id;
     }

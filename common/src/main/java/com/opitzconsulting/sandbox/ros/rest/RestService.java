@@ -12,13 +12,13 @@ public interface RestService {
     @Path("/{id:[0-9]+}")
     ValueObject getObjectById(@PathParam("id") long id);
 
-    @POST
-    @Path("/")
-    void updateObject(ValueObject object);
-
     @PUT
     @Path("/")
-    void createObject(ValueObject object);
+    ValueObject updateObject(ValueObject object);
+
+    @POST
+    @Path("/")
+    ValueObject createObject(ValueObject object);
 
     @DELETE
     @Path("/{id:[0-9]+}")

@@ -1,5 +1,6 @@
 <web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
 
+    <!-- Einbinden des REST-Application-Servlets um REST zu aktivieren -->
     <servlet-mapping>
         <servlet-name>javax.ws.rs.core.Application</servlet-name>
         <url-pattern>/rest/*</url-pattern>
